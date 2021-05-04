@@ -513,10 +513,21 @@ section .title::after{
     width: calc(50% -30px);
 }
 
-.contact .contact-content .text{
+.contact .contact-content .text1{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.contact .contact-content .text2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.contact .contact-content .left{
+    margin-right: 20px;
 }
 
 .contact .contact-content .left p{
@@ -550,8 +561,13 @@ section .title::after{
     color: #333;
 }
 
+.contact .right form .field-container{
+    margin-left: 20px;
+}
+
 .contact .right form .fields{
     display: flex;
+    margin-left: 20px;
 }
 
 .contact .right form .field,
@@ -620,6 +636,7 @@ footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
+    text-align: center;
 }
 
 footer span a{
